@@ -1,0 +1,31 @@
+.ordenar{
+	clear: both;
+}
+#estudios{
+	float: left;
+	width: 100%;
+	min-height: 300px;
+	background: white;
+	margin: 10px auto;
+}
+.tablaEstudios{
+	width: 100%;
+}
+th, td {
+	width: 25%;
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+	caption-side: bottom;
+}
+caption {
+	padding: 5px;
+	color: white;
+	background: black;
+}
+th {
+	background: gray;
+}
+tr:nth-child(odd) {
+	background: lightgray;
+}
