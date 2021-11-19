@@ -7,6 +7,8 @@
 	min-height: 300px;
 	background: white;
 	margin: 10px auto;
+	border-radius: 10px;
+	border: 2px solid black;
 }
 .tablaEstudios{
 	width: 100%;
@@ -15,13 +17,14 @@ th, td {
 	width: 25%;
 	text-align: left;
 	vertical-align: top;
-	padding: 5px;
+	padding: 6px;
 	caption-side: bottom;
 }
 caption {
 	padding: 5px;
 	color: white;
 	background: black;
+	border-radius: 7px;
 }
 th {
 	background: gray;

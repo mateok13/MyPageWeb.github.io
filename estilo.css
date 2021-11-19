@@ -6,6 +6,7 @@ body{
 	background: #8c8c8c;
 }
 #contenido{
+	padding-top: 40px;
 	width: 80%;
 	margin: 0px auto;
 }
