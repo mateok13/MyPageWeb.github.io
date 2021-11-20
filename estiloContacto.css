@@ -49,6 +49,7 @@
 .formContacto input:focus,
 .formContacto textarea:focus {
 	border-color: white;
+	background: white;
 }
 
 .formContacto textarea {
