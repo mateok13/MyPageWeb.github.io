@@ -25,6 +25,9 @@ header{
 	line-height: 15px;
 	list-style: none;
 }
+.menu ul{
+	display: inline-block;
+}
 .menu a{
 	color: black;
 	text-decoration: none;
@@ -37,27 +40,24 @@ header{
 .menu{
 	background: gray;
 	height: 35px;
-	padding-left: 280px;
 	border: 1px solid black;
+	text-align: center;
 }
 .separador{
 	background: black;
 	height: 5px;
 }
 footer{
-	display: flex;
-	line-height: 50px;
+	display: block;
+	line-height: 25px;
 	background: black;
 	text-align: center;
 	color: white;
 }
 footer a{
-	font-size: 30px;
-	padding-top: 10px;
-	padding-left: 30px;
+	font-size: 25px;
+	padding-top: 5px;
+	padding-left: 20px;
 	text-decoration: none;
 	color: white;
-}
-footer h5{
-	margin-left: 340px;
 }
